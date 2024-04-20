@@ -1,0 +1,92 @@
+body {
+    background: #f1f2f3 !important;
+}
+
+.widget-table-two .table > thead > tr > th{
+    background:white !important;
+}
+
+.table > tbody > tr > td{
+    color: #888ea8 !important;
+}
+
+.widget-table-one .transactions-list .t-item .t-name h4, .widget-account-invoice-one .invoice-box h5{
+    color: #000000 !important;
+}
+
+.widget h5{
+    color: #21bf73 !important;
+}
+
+.widget-table-one .transactions-list{
+    border: 1px dashed #bfc9d4;
+}
+
+.nav-tabs .nav-link:hover{
+    border-color: transparent;
+}
+
+.nav-tabs{
+    border-bottom: 1px solid #e0e6ed;
+}
+
+.nav-tabs .nav-link.active{
+    color: white !important;
+    background-color: #21bf73 !important;
+    border-color: #21bf73 #21bf73 #21bf73 !important;
+}
+
+.navbar, .widget.widget-one, .widget, .widget.widget-chart-three, .widget.widget-table-two {
+    background: #fff !important;
+    -webkit-box-shadow: 0 4px 6px 0 rgb(85 85 85 / 8%), 0 1px 20px 0 rgb(0 0 0 / 7%), 0px 1px 11px 0px rgb(0 0 0 / 7%) !important;
+    -moz-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07) !important;
+    box-shadow: 0 4px 6px 0 rgb(85 85 85 / 8%), 0 1px 20px 0 rgb(0 0 0 / 7%), 0px 1px 11px 0px rgb(0 0 0 / 7%) !important;
+}
+
+.widget-card-four .w-info h6, p{
+    color: #3131315e !important;
+}
+
+.widget-card-four .w-info h6, .widget-card-four .w-info p, .widget-account-invoice-two .account-box h5{
+    color: #21bf73 !important;
+}
+
+@media (min-width: 992px){
+    body > div.header-container > header, #container > div.topbar-nav.header.navbar{
+        background-color: transparent !important;
+        box-shadow: none !important;
+    }
+    
+    .topbar-nav.header nav#topbar ul.menu-categories li.menu a > div span {
+        font-weight: 800 !important;
+        color: #000000 !important;
+    }
+
+    .topbar-nav.header nav#topbar ul.menu-categories li.menu a > div svg:not(.feather-chevron-down) {
+        color: #000000 !important;
+    }
+}
+
+.custom-file-container__custom-file__custom-file-control{
+    background-color: #f1f2f3 !important;
+}
+
+.form-control{
+    background-color: white !important;
+}
+
+.form-control:focus{
+    border-color: #bfc9d4 !important;
+    background-color: #f1f2f3 !important;
+}
+
+.wizard > .content{
+    background-color: transparent !important;
+}
+
+@media (max-width: 991px){
+    body > div.header-container > header{
+        background-color: transparent !important;
+        box-shadow: none !important;
+    }
+}

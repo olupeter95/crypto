@@ -1,0 +1,23 @@
+/*
+	===============================
+			@Import	Function
+	===============================
+*/
+/*
+	===============================
+			@Import	Mixins
+	===============================
+*/
+textarea {
+  resize: none; }
+
+.clipboard {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 6px; }
+  .clipboard.copy-txt {
+    background-color: #000000; }
+    .clipboard.copy-txt .otp-pass span {
+      font-size: 24px;
+      font-weight: 600;
+      color: #21bf73; }
